@@ -29,3 +29,11 @@ const nuevo4Array = tecnologias.filter(tech => tech !== 'react') // De esta mane
 const nuevo4_Array = numbers.filter(number => number !== 10)
 console.table(nuevo4Array)
 console.table(nuevo4_Array)
+
+//Metod de array includes.
+//Este metodo nos va a permitir saber si un elemento esta dentro de un arreglo o no.
+
+const resultado = tecnologias.includes('react') // Si el elemento esta dentro del arreglo nos va a devolver un true
+const resultado2 = tecnologias.includes('angular') // Si el elemento no esta dentro del arreglo nos va a devolver un false
+console.log(resultado)
+console.log(resultado2)
