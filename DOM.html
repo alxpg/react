@@ -20,7 +20,12 @@
     </nav>
 </header>
 <body>
-    
-    <script src="js/16.js"></script>
+    <p id="demo"></p>
+    <script type="text/JavaScript">
+        function writeText(str) {
+            document.getElementById('demo').innerHTML = str;        
+        }
+        writeText('Hello, World!');
+    </script>
 </body>
 </html>
