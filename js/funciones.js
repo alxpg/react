@@ -2,6 +2,7 @@
 // Para este caso se exportan las funciones de suma y resta para el archivo 24.js
 //Al exportar las funciones siempre debe ser con el mismo nombre
 
+
 function sumar (n1, n2) {
     return n1 + n2
 }
@@ -16,3 +17,6 @@ export{
     sumar,
     restar
 }
+
+//Exportar con arrow function
+export const dividir = (n1, n2) => n1 / n2
