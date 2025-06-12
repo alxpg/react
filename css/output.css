@@ -25,6 +25,23 @@
   --tw-content: '';
 }
 
+#logo {
+    width: 100px;
+    height: 100px;   
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#logo:hover {
+    display: inline-block;
+    transition: transform 0.5s ease;
+    transform: rotate(360deg);
+    cursor: pointer;
+    size-adjust: 110%;
+    
+}
+
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
